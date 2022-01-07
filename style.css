@@ -1,5 +1,3 @@
-/* Global */
-
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +46,6 @@
     margin-bottom: 20px;
   }
   
-  /* Section */
   
   .focused-left-part {
     width: 50%;
