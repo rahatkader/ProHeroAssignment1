@@ -1,0 +1,211 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .center {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .flex-div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .yellow-color {
+    color: orange;
+  }
+  
+  .button {
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: rgb(241, 80, 80);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .title-big {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title-small {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Section */
+  
+  .focused-left-part {
+    width: 50%;
+  }
+  .focused-title {
+    font-family: "Yeseva One", cursive;
+    font-size: 60px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .focused-caption {
+    color: dimgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .focused-bottom-line {
+    color: dimgray;
+    display: block;
+    margin-top: 25px;
+  }
+  
+  .focused-right-part {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .focused-right-part img {
+    width: 60%;
+  }
+  
+  .cards {
+    display: flex;
+  }
+  
+  .card {
+    margin: 15px;
+    border-radius: 15px;
+    padding: 50px 40px;
+  }
+  
+  .first-card {
+    background-color: linen;
+  }
+  
+  .second-card {
+    background-color: lightblue;
+  }
+  
+  .third-card {
+    background-color: lightpink;
+  }
+  
+  .card-img {
+    width: 35%;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .card-caption {
+    color: dimgray;
+  }
+  .community-right{
+      width: 40%;
+      margin-bottom: 5%;
+  }
+  
+  .developer-left{
+      width: 50%;
+      padding-left: 5%;
+  }
+  .reliant-left {
+    width: 40%;
+  }
+  .developer-left-image{
+    width: 80%;
+  }
+  .community-right-image,
+  .reliant-left-image {
+    width: 80%;
+  }
+
+
+  .community-left{
+      width: 60%;
+  }
+
+
+  .developer-right,
+  .reliant-right {
+    width: 60%;
+  }
+  
+  .developer-caption,
+  .community-caption,
+  .reliant-caption {
+    padding-right: 140px;
+    margin-bottom: 20px;
+    color: dimgray;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+  }
+  
+  footer h2 {
+    font-family: "Lobster", cursive;
+    font-size: 28px;
+  }
+  
+  footer h2 span {
+    color: rgb(241, 80, 80);
+  }
+  
+  footer small {
+    color: LightGray;
+    font-weight: 300;
+  }
+  #developerBackground{
+      background-image: url(images/shapes/shape-1.png);
+      background-size: 20%;
+      background-repeat: no-repeat;
+      background-position: center left;
+      margin-left: 300px;
+      padding-left: 60px;
+     
+  }
+  
+  #communityBackgorund{
+      background-image: url(images/shapes/shape-1.png);
+      background-size: 20%;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+  }
+
+
+/*sss*/
+.headingLine{
+    display: flex;
+    align-items: center;
+}
+.lineTop{
+
+    border-left: 4px solid tomato;
+    height: 140px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-right: 2%;
+}
